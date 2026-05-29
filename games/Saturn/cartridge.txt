@@ -1,0 +1,286 @@
+# Saturn cartridge database.
+# RAM cart source: https://www.satakore.com/cartridge.php
+# RAM cart source section: "Complete list of games and demos that require or are compatible with one of the external cartridges".
+# RAM cart source checked: 2026-05-28.
+# Backup Memory source: https://segaretro.org/Saturn_Backup_Memory
+# Backup Memory source checked: 2026-05-31.
+# Satakore lists 57 external-cartridge entries. This file includes the RAM-cart-relevant entries and excludes ROM-cart-only titles.
+# Format: <UUID> <cart-type> # <source title/notes>
+# UUID is the trimmed Saturn System ID product number at IP.BIN offset 0x20.
+# Supported cart types: 1M, 4M, BACKUP.
+# RAM cart selection policy: choose 4M when Satakore lists both 1M and 4M; choose 1M when Satakore marks the title 1M-only/corrupt with 4M.
+# Collection SKUs with per-game RAM caveats need exact-disc validation before blacklisting.
+
+T-1521G 4M # Astra Superstars; Satakore: 1MB optional / 4MB optional.
+T-9904G 4M # Cotton 2; Satakore: 1MB optional / 4MB optional.
+T-1217G 4M # Cyberbots FullMetal Madness; Satakore: 1MB optional 3M RAM mode / 4MB optional 3M RAM mode.
+T-1216G 4M # Cyberbots FullMetal Madness Chou Genteiban; Satakore: 1MB optional 3M RAM mode / 4MB optional 3M RAM mode.
+T-1224G 4M # Dungeons & Dragons Collection; Satakore: 4MB only for Shadow Over Mystara CD2.
+T-1245G 4M # Dungeons & Dragons Collection RAM cart bundle; local test: Tower of Doom plays with 4M, Shadow over Mystara requires 4M.
+GS-9107 4M # Fighter's History Dynamite; Satakore: 1MB / 4MB.
+GS-9153 4M # Fighter's History Dynamite RAM cart bundle; Satakore: 1MB / 4MB.
+T-1249G 4M # Final Fight Revenge; Satakore: 4MB.
+T-1248G 4M # Final Fight Revenge RAM cart bundle; Satakore: 4MB.
+T-20109G 4M # Friends Seishun no Kagayaki; Satakore: 1MB optional / 4MB optional.
+T-14411G 4M # Groove on Fight; Satakore: 1MB / 4MB.
+T-14413G 4M # Groove on Fight RAM cart bundle; Satakore: 1MB / 4MB.
+T-7032H-05 4M # Marvel Super Heroes; Satakore: unofficial 1MB optional 3M RAM mode / 4MB optional 3M RAM mode.
+T-7032H-50 4M # Marvel Super Heroes; Satakore: unofficial 1MB optional 3M RAM mode / 4MB optional 3M RAM mode.
+T-7032H-51 4M # Marvel Super Heroes; Satakore: unofficial 1MB optional 3M RAM mode / 4MB optional 3M RAM mode.
+T-1215G 4M # Marvel Super Heroes; Satakore: 1MB optional 3M RAM mode / 4MB optional 3M RAM mode.
+T-1214H 4M # Marvel Super Heroes; Satakore: unofficial 1MB optional 3M RAM mode / 4MB optional 3M RAM mode.
+T-1239G 4M # Marvel Super Heroes Vs. Street Fighter; Satakore: 4MB.
+T-1238G 4M # Marvel Super Heroes Vs. Street Fighter RAM cart bundle; Satakore: 4MB.
+T-3111G 4M # Metal Slug; Satakore: 1MB / 4MB.
+T-3114G 4M # Metal Slug RAM cart bundle; Satakore: 1MB / 4MB.
+T-22206G 4M # Noel 3; Satakore: 1MB optional / 4MB optional.
+T-22205G 4M # Noel 3 Shokai Genteiban; Satakore: 1MB optional / 4MB optional.
+T-20114G 4M # Pia Carrot he Youkoso!! 2; Satakore: 1MB optional / 4MB optional.
+T-1230G 4M # Pocket Fighter; Satakore: 4MB optional.
+T-3105G 1M # Real Bout Garou Densetsu; Satakore: 1MB only, corrupt graphics with 4MB.
+T-3124G 4M # Real Bout Garou Densetsu Best Collection; Satakore: 1MB / 4MB, 4MB only for Real Bout Garou Densetsu Special.
+T-3117G 4M # Real Bout Garou Densetsu Special; Satakore: 1MB / 4MB.
+T-3119G 4M # Real Bout Garou Densetsu Special RAM cart bundle; local test: DRAM 4M.
+T-3116G 1M # Samurai Spirits Amakusa Kourin; Satakore: 1MB only, corrupt graphics with 4MB.
+T-3118G 1M # Samurai Spirits Amakusa Kourin RAM cart bundle; Satakore: 1MB only, corrupt graphics with 4MB.
+T-3123G 4M # Samurai Spirits Best Collection; Satakore: 1MB / 4MB, 4MB only for Samurai Spirits Zankurou Musouken.
+T-3106G 4M # Samurai Spirits Zankurou Musouken; Satakore: 1MB / 4MB.
+T-3104G 4M # Samurai Spirits Zankurou Musouken RAM cart bundle; local test: DRAM 4M.
+T-1247G 4M # Street Fighter Zero 3; Satakore: 4MB.
+T-1246G 4M # Street Fighter Zero 3 RAM cart bundle; Satakore: 4MB.
+T-16509G 4M # Super Real Maajan P7; Satakore: 1MB optional / 4MB optional.
+T-16510G 4M # Super Real Maajan P7 P's Club Genteiban; Satakore: 1MB optional / 4MB optional.
+T-3108G 1M # The King of Fighters '96; Satakore: 1MB only, corrupt graphics with 4MB.
+T-3109G 1M # The King of Fighters '96 RAM cart bundle; Satakore: 1MB only, corrupt graphics with 4MB.
+T-3110G 1M # The King of Fighters '96 + '95 Double Pack; Satakore: ROM cartridge / 1MB only for KOF '96, corrupt graphics with 4MB.
+T-3120G 4M # The King of Fighters '97; Satakore: 1MB / 4MB.
+T-3121G 4M # The King of Fighters '97 RAM cart bundle; Satakore: 1MB / 4MB.
+T-3125G 4M # The King of Fighters Best Collection; Satakore: ROM cartridge / 1MB / 4MB, 4MB only for KOF '97.
+T-1228G 4M # Vampire Savior; Satakore: 4MB.
+T-1229G 4M # Vampire Savior RAM cart bundle; Satakore: 4MB.
+T-1516G 4M # Waku Waku 7; Satakore: 1MB / 4MB.
+T-1515G 4M # Waku Waku 7 RAM cart bundle; Satakore: 1MB / 4MB.
+T-1227G 4M # X-Men Vs. Street Fighter; Satakore: 4MB.
+T-1226G 4M # X-Men Vs. Street Fighter RAM cart bundle; Satakore: 4MB.
+610-6730 1M # Samurai Spirits Amakusa Kourin Hibaihin; Satakore: 1MB only, corrupt graphics with 4MB.
+610-6869 4M # The King of Fighters '97 Sample Hibaihin; Satakore: 1MB / 4MB.
+610-6881 4M # Vampire Savior Taikenban; Satakore: 4MB.
+
+# Backup Memory-compatible titles.
+12512H BACKUP # Casper; Sega Retro: Backup Memory.
+6106600 BACKUP # Grandia; Sega Retro: Backup Memory.
+6106929 BACKUP # Deep Fear; Sega Retro: Backup Memory.
+6106979 BACKUP # Shining Force III; Sega Retro: Backup Memory.
+GM-81004 BACKUP # Bug!; Sega Retro: Backup Memory.
+GS-7106 BACKUP # Cyber Troopers Virtual-On NetLink Edition; Sega Retro: Backup Memory.
+GS-7110 BACKUP # Decathlete; Sega Retro: Backup Memory.
+GS-9002 BACKUP # Victory Goal; Sega Retro: Backup Memory.
+GS-9003 BACKUP # Gale Racer; Sega Retro: Backup Memory.
+GS-9006 BACKUP # Pebble Beach Golf Links; Sega Retro: Backup Memory.
+GS-9017 BACKUP # Greatest Nine '96 / Kanzen Chuukei Pro Yakyuu Greatest Nine; Sega Retro: Backup Memory.
+GS-9021 BACKUP # Mystaria: The Realms of Lore; Sega Retro: Backup Memory.
+GS-9032 BACKUP # Hang-On GP; Sega Retro: Backup Memory.
+GS-9034 BACKUP # J.League Pro Soccer Club o Tsukurou!; Sega Retro: Backup Memory.
+GS-9040 BACKUP # Baku Baku Animal; Sega Retro: Backup Memory.
+GS-9044 BACKUP # Sega International Victory Goal / Victory Goal; Sega Retro: Backup Memory.
+GS-9048 BACKUP # Victory Goal / Victory Goal '96; Sega Retro: Backup Memory.
+GS-9056 BACKUP # Torico; Sega Retro: Backup Memory.
+GS-9061 BACKUP # World Series Baseball; Sega Retro: Backup Memory.
+GS-9063 BACKUP # Bug!; Sega Retro: Backup Memory.
+GS-9076 BACKUP # Panzer Dragoon Saga; Sega Retro: Backup Memory.
+GS-9084 BACKUP # Mystaria: The Realms of Lore; Sega Retro: Backup Memory.
+GS-9086 BACKUP # Greatest Nine '96; Sega Retro: Backup Memory.
+GS-9099 BACKUP # Cyber Troopers Virtual-On; Sega Retro: Backup Memory.
+GS-9100 BACKUP # Daytona USA; Sega Retro: Backup Memory.
+GS-9112 BACKUP # Victory Goal; Sega Retro: Backup Memory.
+GS-9116 BACKUP # Sega Rally Championship; Sega Retro: Backup Memory.
+GS-9139 BACKUP # Pro Yakyuu Greatest Nine 97; Sega Retro: Backup Memory.
+GS-9140 BACKUP # J.League Victory Goal '97 / Victory Goal; Sega Retro: Backup Memory.
+GS-9168 BACKUP # J.League Pro Soccer Club o Tsukurou!; Sega Retro: Backup Memory.
+GS-9171 BACKUP # Pro Yakyuu Greatest Nine 97 / Pro Yakyuu Greatest Nine 97 Make Miracle; Sega Retro: Backup Memory.
+GS-9175 BACKUP # Shining Force III; Sega Retro: Backup Memory.
+GS-9181 BACKUP # Sega Ages Power Drift; Sega Retro: Backup Memory.
+GS-9184 BACKUP # Dragon Force; Sega Retro: Backup Memory.
+GS-9185 BACKUP # Pro Yakyuu Greatest Nine 98; Sega Retro: Backup Memory.
+GS-9188 BACKUP # Shining Force III; Sega Retro: Backup Memory.
+GS-9196 BACKUP # World Cup '98 France: Road to Win; Sega Retro: Backup Memory.
+GS-9202 BACKUP # Pro Yakyuu Greatest Nine 98 / Pro Yakyuu Greatest Nine 98 Summer Action; Sega Retro: Backup Memory.
+GS-9203 BACKUP # Shining Force III; Sega Retro: Backup Memory.
+MK-81002 BACKUP # NHL All-Star Hockey; Sega Retro: Backup Memory.
+MK-81005 BACKUP # Virtua Fighter; Sega Retro: Backup Memory.
+MK-81012 BACKUP # The Mansion of Hidden Souls; Sega Retro: Backup Memory.
+MK-81014 BACKUP # Virtua Fighter 2; Sega Retro: Backup Memory.
+MK-81020 BACKUP # NiGHTS into Dreams; Sega Retro: Backup Memory.
+MK-81022 BACKUP # Panzer Dragoon Zwei; Sega Retro: Backup Memory.
+MK-81023 BACKUP # Virtua Fighter Remix; Sega Retro: Backup Memory.
+MK-81035 BACKUP # Guardian Heroes; Sega Retro: Backup Memory.
+MK-81041 BACKUP # Fighting Vipers; Sega Retro: Backup Memory.
+MK-81042 BACKUP # Cyber Troopers Virtual-On; Sega Retro: Backup Memory.
+MK-81046 BACKUP # Gungriffon; Sega Retro: Backup Memory.
+MK-81049 BACKUP # Virtua Fighter Kids; Sega Retro: Backup Memory.
+MK-81053 BACKUP # Torico; Sega Retro: Backup Memory.
+MK-81065 BACKUP # The Lost World: Jurassic Park; Sega Retro: Backup Memory.
+MK-81067 BACKUP # NiGHTS into Dreams; Sega Retro: Backup Memory.
+MK-81072 BACKUP # Cyber Troopers Virtual-On NetLink Edition; Sega Retro: Backup Memory.
+MK-81073 BACKUP # Fighters Megamix; Sega Retro: Backup Memory.
+MK-81078 BACKUP # Last Bronx; Sega Retro: Backup Memory.
+MK-81079 BACKUP # Sonic Jam; Sega Retro: Backup Memory.
+MK-81087 BACKUP # Mighty Hits; Sega Retro: Backup Memory.
+MK-81101 BACKUP # Pebble Beach Golf Links; Sega Retro: Backup Memory.
+MK-81103 BACKUP # NBA Action; Sega Retro: Backup Memory.
+MK-81105 BACKUP # Sega International Victory Goal / Victory Goal; Sega Retro: Backup Memory.
+MK-81109 BACKUP # World Series Baseball; Sega Retro: Backup Memory.
+MK-81111 BACKUP # NFL '97; Sega Retro: Backup Memory.
+MK-81112 BACKUP # Sega Worldwide Soccer 97; Sega Retro: Backup Memory.
+MK-81113 BACKUP # World Series Baseball II; Sega Retro: Backup Memory.
+MK-81115 BACKUP # Decathlete; Sega Retro: Backup Memory.
+MK-81122 BACKUP # NHL All-Star Hockey 98; Sega Retro: Backup Memory.
+MK-81123 BACKUP # Sega Worldwide Soccer 98; Sega Retro: Backup Memory.
+MK-81124 BACKUP # NBA Action 98; Sega Retro: Backup Memory.
+MK-81127 BACKUP # World Series Baseball 98; Sega Retro: Backup Memory.
+MK-81128 BACKUP # Steep Slope Sliders; Sega Retro: Backup Memory.
+MK-81129 BACKUP # Winter Heat; Sega Retro: Backup Memory.
+MK-81181 BACKUP # World League Soccer '98; Sega Retro: Backup Memory.
+MK-81200 BACKUP # Daytona USA; Sega Retro: Backup Memory.
+MK-81202 BACKUP # Hang-On GP; Sega Retro: Backup Memory.
+MK-81207 BACKUP # Sega Rally Championship; Sega Retro: Backup Memory.
+MK-81210 BACKUP # Manx TT Super Bike; Sega Retro: Backup Memory.
+MK-81213 BACKUP # Daytona USA: Championship Circuit Edition; Sega Retro: Backup Memory.
+MK-81214 BACKUP # Scorcher; Sega Retro: Backup Memory.
+MK-81215 BACKUP # Sega Rally Championship; Sega Retro: Backup Memory.
+MK-81216 BACKUP # Sega Touring Car Championship; Sega Retro: Backup Memory.
+MK-81218 BACKUP # Daytona USA: C.C.E. NetLink Edition; Sega Retro: Backup Memory.
+MK-81300 BACKUP # Mystaria: The Realms of Lore; Sega Retro: Backup Memory.
+MK-81302 BACKUP # The Story of Thor 2; Sega Retro: Backup Memory.
+MK-81303 BACKUP # Mystaria: The Realms of Lore; Sega Retro: Backup Memory.
+MK-81304 BACKUP # Dark Savior; Sega Retro: Backup Memory.
+MK-81306 BACKUP # Shining the Holy Ark; Sega Retro: Backup Memory.
+MK-81307 BACKUP # Panzer Dragoon Saga; Sega Retro: Backup Memory.
+MK-81383 BACKUP # Shining Force III; Sega Retro: Backup Memory.
+MK-81501 BACKUP # Baku Baku Animal; Sega Retro: Backup Memory.
+MK-81800 BACKUP # Sonic R; Sega Retro: Backup Memory.
+MK-81803 BACKUP # Burning Rangers; Sega Retro: Backup Memory.
+MK-81804 BACKUP # Deep Fear; Sega Retro: Backup Memory.
+T-07004H BACKUP # Grand Slam; Sega Retro: Backup Memory.
+T-07904H BACKUP # Olympic Soccer; Sega Retro: Backup Memory.
+T-10002H BACKUP # Robo Pit; Sega Retro: Backup Memory.
+T-10602G BACKUP # Alone in the Dark 2; Sega Retro: Backup Memory.
+T-10613G BACKUP # Nissan Presents Over Drivin' GT-R; Sega Retro: Backup Memory.
+T-10616G BACKUP # Soukyugurentai; Sega Retro: Backup Memory.
+T-10626G BACKUP # Soukyugurentai; Sega Retro: Backup Memory.
+T-1101G BACKUP # Galactic Attack; Sega Retro: Backup Memory.
+T-1108G BACKUP # Cleopatra Fortune; Sega Retro: Backup Memory.
+T-11303H BACKUP # Destruction Derby; Sega Retro: Backup Memory.
+T-11304H BACKUP # 3D Lemmings; Sega Retro: Backup Memory.
+T-1214G BACKUP # Mega Man 8; Sega Retro: Backup Memory.
+T-1216H BACKUP # Mega Man 8; Sega Retro: Backup Memory.
+T-1221H BACKUP # Resident Evil; Sega Retro: Backup Memory.
+T-1222H BACKUP # Street Fighter Collection; Sega Retro: Backup Memory.
+T-12302H BACKUP # Actua Golf; Sega Retro: Backup Memory.
+T-12303H BACKUP # Hardcore 4x4; Sega Retro: Backup Memory.
+T-12305H BACKUP # Actua Soccer Club Edition; Sega Retro: Backup Memory.
+T-12508H BACKUP # Cyberia; Sega Retro: Backup Memory.
+T-12516H BACKUP # Tempest 2000; Sega Retro: Backup Memory.
+T-12517H BACKUP # VR Soccer; Sega Retro: Backup Memory.
+T-12601H BACKUP # SimCity 2000; Sega Retro: Backup Memory.
+T-12701H BACKUP # Iron Storm; Sega Retro: Backup Memory.
+T-12703H BACKUP # Dragon Force; Sega Retro: Backup Memory.
+T-12705H BACKUP # Albert Odyssey: Legend of Eldean; Sega Retro: Backup Memory.
+T-12706H BACKUP # Magic Knight Rayearth; Sega Retro: Backup Memory.
+T-12707H BACKUP # Sega Ages: Volume 1; Sega Retro: Backup Memory.
+T-13001 BACKUP # Shanghai: Triple-Threat; Sega Retro: Backup Memory.
+T-13003H BACKUP # Blast Chamber; Sega Retro: Backup Memory.
+T-13325G BACKUP # Sega Saturn de Hakken!! Tamagotchi Park; Sega Retro: Backup Memory.
+T-13331G BACKUP # Digital Monster Ver. S Digimon Tamers; Sega Retro: Backup Memory.
+T-13703H BACKUP # Hardcore 4x4; Sega Retro: Backup Memory.
+T-13705H BACKUP # Ten Pin Alley; Sega Retro: Backup Memory.
+T-14401H BACKUP # Virtual Hydlide; Sega Retro: Backup Memory.
+T-1508G BACKUP # O-chan no Oekaki Logic; Sega Retro: Backup Memory.
+T-159028H BACKUP # Slam 'n Jam '96 Featuring Magic & Kareem; Sega Retro: Backup Memory.
+T-159056 BACKUP # Slam 'n Jam '96 Featuring Magic & Kareem; Sega Retro: Backup Memory.
+T-15906H BACKUP # 3D Baseball; Sega Retro: Backup Memory.
+T-16103H BACKUP # Die Hard Trilogy; Sega Retro: Backup Memory.
+T-16104H BACKUP # Independence Day; Sega Retro: Backup Memory.
+T-16213H BACKUP # Quarterback Attack with Mike Ditka; Sega Retro: Backup Memory.
+T-17701G BACKUP # Rayman; Sega Retro: Backup Memory.
+T-18003G BACKUP # 3D Baseball; Sega Retro: Backup Memory.
+T-18007G BACKUP # Mass Destruction; Sega Retro: Backup Memory.
+T-18007H BACKUP # Mass Destruction; Sega Retro: Backup Memory.
+T-18604G BACKUP # Destruction Derby; Sega Retro: Backup Memory.
+T-18612G BACKUP # Hexen; Sega Retro: Backup Memory.
+T-23001H BACKUP # Herc's Adventures; Sega Retro: Backup Memory.
+T-2303H BACKUP # Valora Valley Golf; Sega Retro: Backup Memory.
+T-25406H BACKUP # Hexen; Sega Retro: Backup Memory.
+T-26409G BACKUP # Galactic Attack; Sega Retro: Backup Memory.
+T-26410G BACKUP # Croc: Legend of the Gobbos; Sega Retro: Backup Memory.
+T-27901G BACKUP # Lunar Silver Star Story; Sega Retro: Backup Memory.
+T-27904G BACKUP # Lunar Silver Star Story; Sega Retro: Backup Memory.
+T-27906G BACKUP # Lunar 2 Eternal Blue; Sega Retro: Backup Memory.
+T-29401H BACKUP # Alone in the Dark 2; Sega Retro: Backup Memory.
+T-29701H BACKUP # StarFighter 3000; Sega Retro: Backup Memory.
+T-31101H BACKUP # Highway 2000; Sega Retro: Backup Memory.
+T-31102H BACKUP # Virtual Casino; Sega Retro: Backup Memory.
+T-4502G BACKUP # Gungriffon; Sega Retro: Backup Memory.
+T-4507G BACKUP # Grandia; Sega Retro: Backup Memory.
+T-4511G BACKUP # Gungriffon; Sega Retro: Backup Memory.
+T-4512G BACKUP # Grandia; Sega Retro: Backup Memory.
+T-4801H BACKUP # Time Warner Interactive's VR Virtua Racing / Virtua Racing; Sega Retro: Backup Memory.
+T-5002H BACKUP # Hi-Octane; Sega Retro: Backup Memory.
+T-5003H BACKUP # FIFA Soccer 96; Sega Retro: Backup Memory.
+T-5005H BACKUP # Shockwave Assault; Sega Retro: Backup Memory.
+T-5007H BACKUP # Space Hulk: Vengeance of the Blood Angels; Sega Retro: Backup Memory.
+T-5008H BACKUP # Road Rash; Sega Retro: Backup Memory.
+T-5009H BACKUP # Road & Track Presents The Need for Speed; Sega Retro: Backup Memory.
+T-5010H BACKUP # Madden NFL 97 / NFL '97; Sega Retro: Backup Memory.
+T-5011H BACKUP # PGA Tour 97; Sega Retro: Backup Memory.
+T-5013H BACKUP # Soviet Strike; Sega Retro: Backup Memory.
+T-5014H BACKUP # Crusader: No Remorse; Sega Retro: Backup Memory.
+T-5015H BACKUP # NBA Live 97; Sega Retro: Backup Memory.
+T-5016H BACKUP # NHL 97; Sega Retro: Backup Memory.
+T-5017H BACKUP # FIFA Soccer 97; Sega Retro: Backup Memory.
+T-5020H BACKUP # Andretti Racing; Sega Retro: Backup Memory.
+T-5023H BACKUP # Warcraft II: The Dark Saga; Sega Retro: Backup Memory.
+T-5024H BACKUP # Madden NFL 98; Sega Retro: Backup Memory.
+T-5025H BACKUP # FIFA Road to World Cup 98 / World Cup '98 France: Road to Win; Sega Retro: Backup Memory.
+T-5025H-50 BACKUP # FIFA Road to World Cup 98 / World Cup '98 France: Road to Win; Sega Retro: Backup Memory.
+T-5026H BACKUP # NHL 98; Sega Retro: Backup Memory.
+T-5027H BACKUP # NBA Live 98; Sega Retro: Backup Memory.
+T-5028H BACKUP # NASCAR 98; Sega Retro: Backup Memory.
+T-5029H-50 BACKUP # Croc: Legend of the Gobbos; Sega Retro: Backup Memory.
+T-5305G BACKUP # Densetsu no Ogre Battle; Sega Retro: Backup Memory.
+T-5306G BACKUP # Tactics Ogre; Sega Retro: Backup Memory.
+T-5704H BACKUP # Tetris Plus; Sega Retro: Backup Memory.
+T-5710G BACKUP # Fantastep; Sega Retro: Backup Memory.
+T-6006G BACKUP # Thunderhawk II; Sega Retro: Backup Memory.
+T-6010G BACKUP # Tomb Raider; Sega Retro: Backup Memory.
+T-6011H-50 BACKUP # Pinball Graffiti; Sega Retro: Backup Memory.
+T-7025H BACKUP # Grid Runner; Sega Retro: Backup Memory.
+T-7027H BACKUP # Black Dawn; Sega Retro: Backup Memory.
+T-7601G BACKUP # Sangokushi IV; Sega Retro: Backup Memory.
+T-7604H BACKUP # Pacific Theater of Operations II; Sega Retro: Backup Memory.
+T-7605H BACKUP # Heir of Zendor: The Legend and The Land; Sega Retro: Backup Memory.
+T-7608G BACKUP # Heir of Zendor: The Legend and The Land; Sega Retro: Backup Memory.
+T-7621G BACKUP # Mahjong Taikai II Special; Sega Retro: Backup Memory.
+T-7644G BACKUP # Sangokushi IV; Sega Retro: Backup Memory.
+T-7903H BACKUP # World Cup Golf: Professional Edition; Sega Retro: Backup Memory.
+T-7910H BACKUP # Tomb Raider; Sega Retro: Backup Memory.
+T-8101H BACKUP # Myst; Sega Retro: Backup Memory.
+T-8116H BACKUP # Galactic Attack; Sega Retro: Backup Memory.
+T-8117H BACKUP # Dragonheart: Fire & Steel; Sega Retro: Backup Memory.
+T-8120H BACKUP # NBA Jam Extreme; Sega Retro: Backup Memory.
+T-8125H BACKUP # Space Jam; Sega Retro: Backup Memory.
+T-8133H BACKUP # Striker '96; Sega Retro: Backup Memory.
+T-8136H BACKUP # NFL Quarterback Club '97; Sega Retro: Backup Memory.
+T-8138H BACKUP # Frank Thomas Big Hurt Baseball; Sega Retro: Backup Memory.
+T-8139H BACKUP # Impact Racing; Sega Retro: Backup Memory.
+T-8140H BACKUP # Batman Forever; Sega Retro: Backup Memory.
+T-8144H BACKUP # Tunnel B1; Sega Retro: Backup Memory.
+T-8150H BACKUP # All-Star Baseball 1997 Featuring Frank Thomas; Sega Retro: Backup Memory.
+T-8807H BACKUP # Crimewave; Sega Retro: Backup Memory.
+T-9102G BACKUP # Highway 2000; Sega Retro: Backup Memory.
+T-9103G BACKUP # Highway 2000; Sega Retro: Backup Memory.
+T-9504G BACKUP # Tokimeki Memorial: Forever With You; Sega Retro: Backup Memory.
+T-9510G BACKUP # Policenauts; Sega Retro: Backup Memory.
+T-9703H BACKUP # Midway Presents Arcade's Greatest Hits; Sega Retro: Backup Memory.
+T-9706H BACKUP # Midway Presents Arcade's Greatest Hits / Midway Presents Arcade's Greatest Hits: The Atari Collection 1; Sega Retro: Backup Memory.
+T-9708H BACKUP # Rampage World Tour; Sega Retro: Backup Memory.
