@@ -7,7 +7,6 @@
     <category>Shooter</category>
     <rbf>IremM92</rbf>
     <rotation>horizontal</rotation>
-
     <players>2</players>
     <joystick>8-way</joystick>
     <num_buttons>2</num_buttons>

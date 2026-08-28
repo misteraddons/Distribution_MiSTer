@@ -8,7 +8,6 @@
     <category>Shooter</category>
     <rbf>IremM72</rbf>
     <rotation>vertical (ccw)</rotation>
-
     <joystick>8-way</joystick>
     <num_buttons>2</num_buttons>
     <buttons default="B,A,Start,Select,R,L" names="Fire,Bomb,-,-,Start,Coin,Pause,SS,P2 Start"></buttons>

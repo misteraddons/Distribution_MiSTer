@@ -19,7 +19,6 @@
 
 	<resolution>15kHz</resolution>
 	<rotation>vertical (ccw)</rotation>
-	<flip>yes</flip>
 
 	<players>2 (alternating)</players>
 	<joystick>2-way horizontal</joystick>

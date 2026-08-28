@@ -8,6 +8,7 @@
   <category>Shooter</category>
   <rbf>Aleck64</rbf>
 
+  <rotation>horizontal</rotation>
   <buttons names="Button A,Button B,Start,-,Button C,-,-,Button D,-,-,Soft Reset,Coin,Service,Test,-,-" default="A,B,X,Y,Start,Select,R,L"/>
 
   <!-- IN0 bits 31:16, shifted down to the core's 16-bit MRA DIP word. -->

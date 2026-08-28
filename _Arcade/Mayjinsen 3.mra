@@ -8,6 +8,7 @@
   <category>Mahjong</category>
   <rbf>Aleck64</rbf>
 
+  <rotation>horizontal</rotation>
   <buttons names="Button A,Button B,Start,Pan Left,Pan Right,Button Z,C Up,C Right,C Down,C Left,Soft Reset,Coin,Service,Test,-,-" default="A,B,X,Start,Select,R,L"/>
 
   <switches default="FF,FF">

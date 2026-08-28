@@ -15,7 +15,6 @@
     <category>Climbing</category>
 
 	<rotation>vertical (ccw)</rotation>
-
     <rom index="0" zip="decocass.zip|ctower.zip" md5="none">
         <!-- $00000-$00FFF Main 6502 BIOS -->
         <!-- BIOS-D-FIX-2026-06-29: Europe (DECOCASS_BIOS_D_ROMS) set -> Europe BIOS v0d-.7e, not USA v0b-.7e. -->

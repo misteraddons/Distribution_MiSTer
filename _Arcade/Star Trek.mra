@@ -3,6 +3,7 @@
     <name>Star Trek</name>
     <setname>startrek</setname>
 	<rbf>SegaG80V</rbf>
+	<rotation>horizontal (180)</rotation>
     <mameversion>0283</mameversion>
     <year>1982</year>
     <manufacturer>Sega</manufacturer>

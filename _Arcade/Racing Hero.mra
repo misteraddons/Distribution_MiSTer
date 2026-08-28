@@ -2,6 +2,7 @@
   <name>Racing Hero</name>
   <setname>rachero</setname>
   <rbf>SegaXBoard</rbf>
+  <rotation>horizontal</rotation>
   <mameversion>0289</mameversion>
   <year>1989</year>
   <manufacturer>Sega</manufacturer>

@@ -2,6 +2,7 @@
   <name>After Burner (Ver 1.32)</name>
   <setname>aburner</setname>
   <rbf>SegaXBoard</rbf>
+  <rotation>horizontal</rotation>
   <mameversion>0289</mameversion>
   <year>1987</year>
   <manufacturer>Sega</manufacturer>

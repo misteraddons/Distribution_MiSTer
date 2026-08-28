@@ -7,6 +7,7 @@
   <category>Puzzle</category>
   <rbf>cave</rbf>
 
+  <rotation>horizontal</rotation>
   <!-- ROM data -->
   <rom index="0" zip="uopoko.zip" md5="none" address="0x30000000">
     <!-- prog ROM -->

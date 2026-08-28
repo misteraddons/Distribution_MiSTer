@@ -11,7 +11,7 @@
 	<rbf>freeze</rbf>
 	<about></about>
 	<resolution>15kHz</resolution>
-	<rotation>vertical(ccw)</rotation>
+	<rotation>vertical (ccw)</rotation>
 	<flip></flip>
 	<players>2</players>
 	<joystick>2-way</joystick>

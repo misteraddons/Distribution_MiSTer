@@ -8,6 +8,7 @@
   <category>Puzzle</category>
   <rbf>Aleck64</rbf>
 
+  <rotation>horizontal</rotation>
   <buttons names="Button 1,Button B,Start,Pan Left,Pan Right,Button Z,C Up,C Right,C Down,C Left,Soft Reset,Coin,Service,Test,-,-" default="A,Start,Select,R,L"/>
 
   <switches default="FF,FF">

@@ -2,6 +2,7 @@
   <name>Line of Fire (World)</name>
   <setname>loffire</setname>
   <rbf>SegaXBoard</rbf>
+  <rotation>horizontal</rotation>
   <mameversion>0289</mameversion>
   <year>1989</year>
   <manufacturer>Sega</manufacturer>

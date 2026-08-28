@@ -7,7 +7,6 @@
     <category>Shooter</category>
     <rbf>IremM107</rbf>
     <rotation>vertical (ccw)</rotation>
-
     <joystick>8-way</joystick>
     <num_buttons>2</num_buttons>
     <buttons default="B,A,X,Start,Select" names="Gun/Missile,Bomb,Rapid Fire,-,-,-,Start,Coin,P2 Start,Pause"></buttons>

@@ -7,7 +7,6 @@
     <category>Fighter</category>
     <rbf>IremM92</rbf>
     <rotation>horizontal</rotation>
-
     <joystick>8-way</joystick>
     <num_buttons>6</num_buttons>
     <buttons default="B,A,R,X,Y,L,Start,Select" names="Soft Punch,Medium Punch,Hard Punch,Soft Kick,Medium Kick,Hard Kick,Start,Coin,P2 Start,Pause"></buttons>

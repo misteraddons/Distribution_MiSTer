@@ -50,7 +50,6 @@
     <category>Multigame</category>
 
   	<rotation>vertical (ccw)</rotation>
-
     <rom index="0" zip="decocass.zip|decomult.zip" md5="none">
         <!-- $00000-$007FF: Main 6502 BIOS lower half — not in romset, zero-filled -->
         <part repeat="0x800">00</part>

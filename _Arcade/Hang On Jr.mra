@@ -23,7 +23,7 @@
 
 	<players>1</players>
 	<joystick></joystick>
-	<buttons names="-,-,Start,Coin,Pause,-,-,-,SaveState" default="Start,Select,R" count="1"/>
+	<buttons names="Accelerate,-,Start,Coin,Pause,-,-,-,SaveState" default="Start,Select,R" count="1"/>
 	
 	<switches base="24" default="FF,FF,FF">
 		<!-- SWA -->

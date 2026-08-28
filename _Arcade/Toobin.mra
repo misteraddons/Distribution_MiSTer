@@ -11,7 +11,6 @@
     <!-- MAME ROT270 == a monitor rotated counter-clockwise; the core rotates to match
          (rotate_ccw=1 in Toobin.sv). -->
     <rotation>vertical (ccw)</rotation>
-
     <!-- Region order/sizes are decoded by rtl/mem/toobin_rom_loader.sv:
          maincpu 0x000000 | jsa:cpu 0x080000 | tiles 0x090000 | sprites 0x110000 |
          chars 0x310000 | EEPROM 0x314000, total 0x314200 bytes.

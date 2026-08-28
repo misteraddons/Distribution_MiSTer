@@ -3,6 +3,7 @@
     <name>Tac/Scan</name>
     <setname>tacscan</setname>
 	<rbf>SegaG80V</rbf>
+	<rotation>vertical (ccw)</rotation>
     <mameversion>0283</mameversion>
     <year>1982</year>
     <manufacturer>Sega</manufacturer>

@@ -7,7 +7,6 @@
     <category>Shooter</category>
     <rbf>IremM92</rbf>
     <rotation>horizontal</rotation>
-
     <joystick>8-way</joystick>
     <num_buttons>2</num_buttons>
     <buttons default="B,A,Start,Select" names="Gun Shoot,Broom Shoot,-,-,-,-,Start,Coin,P2 Start,Pause"></buttons>

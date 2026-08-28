@@ -3,6 +3,7 @@
     <name>Pinball Action</name>
     <setname>pbaction</setname>
     <rbf>PinballAction</rbf>
+    <rotation>vertical (cw)</rotation>
     <mameversion>0.288</mameversion>
     <year>1985</year>
     <manufacturer>Tehkan</manufacturer>

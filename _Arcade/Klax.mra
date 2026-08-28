@@ -6,6 +6,7 @@
     <setname>klax</setname>
     <rbf>Klax</rbf>
 
+    <rotation>horizontal</rotation>
     <about>
         Klax for MiSTer — Atari Games. Parent set `klax` (version 6), whose
         internal ROM test date is 13FEB1990 11:10:09; MAME dates every Klax

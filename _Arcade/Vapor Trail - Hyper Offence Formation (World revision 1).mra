@@ -96,7 +96,7 @@
         <part>05 80</part>
     </rom>
     <switches page_id="1" page_name="Switches" base="16" default="7f,ff">
-        <DSW/>
+        <dsw/>
         <dip name="Lives" bits="0,1" ids="2,5,4,3"/>
         <dip name="Difficulty" bits="2,3" ids="Hardest,Hard,Easy,Normal"/>
         <dip name="Bonus Life" bits="4,5" ids="None,300k only,150 300 and 600,200k and 600k"/>
@@ -107,5 +107,5 @@
         <dip name="Flip Screen" bits="14" ids="On,Off"/>
         <dip name="Service Mode" bits="15" ids="On,Off"/>
     </switches>
-    <buttons names="button 1,button 2,-,Start,Coin,Core credits" default="A,B,Start,Select,-" count="2"/>
+    <buttons names="Shot,Bomb,-,Start,Coin,Core credits" default="A,B,Start,Select,-" count="2"/>
 </misterromdescription>
