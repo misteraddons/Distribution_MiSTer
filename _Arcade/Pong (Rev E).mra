@@ -23,6 +23,7 @@
 
 	<players>2 (simultaneous)</players>
 	<joystick></joystick>
+	<buttons names="Start" default="Start" count="0"/>
 	<special_controls>positional</special_controls>
 	<num_buttons>0</num_buttons>
 	<button_names></button_names>

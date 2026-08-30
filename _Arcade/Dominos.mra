@@ -23,6 +23,7 @@
 
 	<players>2 (simultaneous)</players>
 	<joystick>4-way</joystick>
+	<buttons names="Start,Coin 1,Coin 2" default="Start,Select,R" count="0"/>
 	<special_controls></special_controls>
 	<num_buttons>0</num_buttons>
 	<button_names></button_names>

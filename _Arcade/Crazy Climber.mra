@@ -23,6 +23,7 @@
 
 	<players>2 (alternating)</players>
 	<joystick>8-way</joystick>
+	<buttons names="R Right,R Left,R Down,R Up,Start 1P,Start 2P,Coin" default="A,Y,B,X,Start,Select,R" count="0"/>
 	<special_controls>twin stick</special_controls>
 	<num_buttons>4</num_buttons>
 	<button_names></button_names>

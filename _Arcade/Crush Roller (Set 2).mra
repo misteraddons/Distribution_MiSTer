@@ -24,6 +24,7 @@
 
 	<players>2 (alternating)</players>
 	<joystick>4-way</joystick>
+	<buttons names="-,Start 1P,Start 2P,Coin,-,Pause" default="Start,Select,R,X" count="0"/>
 	<special_controls></special_controls>
 	<num_buttons>0</num_buttons>
 	<button_names></button_names>
